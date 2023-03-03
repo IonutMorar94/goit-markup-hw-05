@@ -611,3 +611,60 @@ footer {
 .what-we-do-photo li {
     position: relative;
 }
+
+/* Cerinta C4*/
+.link-style {
+    position: relative;
+}
+
+.link-style:focus {
+    color: #2196F3;
+}
+
+.link-style:hover {
+    color: #2196F3;
+}
+
+
+.link-style::after {
+    content: '';
+    border: 2px solid #2196F3;
+    width: 100%;
+    position: absolute;
+    bottom: -32px;
+    border-radius: 2px;
+    visibility: hidden;
+    left: 0;
+}
+
+.link-style:focus::after {
+    visibility: visible;
+}
+
+/* Cerinta C5*/
+
+.li-overlay {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.card-overlay {
+    height: 294px;
+    width: 370px;
+    position: absolute;
+    background: rgba(33, 150, 243, 0.9);
+    transform: translateY(101%);
+    transition: transform 250ms linear;
+    opacity: 0.5;
+
+}
+
+.projects-list li:hover .card-overlay {
+    transform: translateY(0px);
+}
+
+.border-line {
+    position: relative;
+    z-index: 1;
+}
