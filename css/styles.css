@@ -648,7 +648,15 @@ footer {
     background: rgba(33, 150, 243, 0.9);
     transform: translateY(101%);
     transition: transform 250ms linear;
-    opacity: 0.5;
+}
+
+.overlay-text {
+    padding-top: 70px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .projects-list li:hover .card-overlay {
